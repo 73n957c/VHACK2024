@@ -3,8 +3,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 // Right now this page is using App.css
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import PageHeader from "./components/pageHeader";
 import HomePage from "./pages/HomePage";
 import EducationPage from "./pages/EducationPage";
 import ChallengePage from "./pages/ChallengePage";
