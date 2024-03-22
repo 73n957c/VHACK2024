@@ -9,7 +9,7 @@ import {
   ButtonGroup,
 } from "react-bootstrap";
 
-function HomeProgress() {
+function HomeProgress({ onGoalButtonClick }) {
   const awardList = [
     {
       id: 1,
@@ -78,7 +78,7 @@ function HomeProgress() {
                 <p>Set a goal</p>
                 <h5>Wealth Compass: Goal Planner</h5>
               </div>
-              <Button size="sm" id="goal-btn">
+              <Button size="sm" id="goal-btn" onClick={onGoalButtonClick}>
                 Open
               </Button>
             </div>
@@ -112,4 +112,10 @@ function HomeProgress() {
     </>
   );
 }
+
+HomeProgress.defaultProps = {
+  onGoalButtonClick: () => {
+    console.log("Goal button clicked");
+  },
+};
 export default HomeProgress;

@@ -5,8 +5,13 @@ import GoalPlanner from "../components/goalPlanner";
 import RiskAnalysisPromote from "../components/riskAnalysisPromote";
 import "../page-css/HomePage.css";
 import { Container, Col, Row } from "react-bootstrap";
+import { useRef } from "react";
 
 export default function HomePage() {
+  const ref = useRef(null);
+  const doClick = () => {
+    ref.current?.scrollIntoView({ behaviour: "smooth" });
+  };
   return (
     <>
       <div className="page-title">
@@ -17,7 +22,7 @@ export default function HomePage() {
       </div>
       <Container>
         <Row className="progress-block">
-          <HomeProgress></HomeProgress>
+          <HomeProgress onGoalButtonClick={doClick}></HomeProgress>
         </Row>
         <Row className="allocation-breakdown-block">
           <Col className="allocation-col" sm={5}>
@@ -27,7 +32,7 @@ export default function HomePage() {
             <PortfolioSummary isChallenge={false}></PortfolioSummary>
           </Col>
         </Row>
-        <Row className="goal-planner-block">
+        <Row className="goal-planner-block" ref={ref}>
           <GoalPlanner></GoalPlanner>
         </Row>
         <Row className="risk-analysis-block">
