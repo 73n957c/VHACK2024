@@ -11,6 +11,7 @@ import ChallengePage from "./pages/ChallengePage";
 import CommunityPage from "./pages/CommunityPage";
 import GoalPage from "./pages/GoalPage";
 import AboutPage from "./pages/AboutPage";
+import BeginnerLevelPage from "./pages/BeginnerLevelPage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/goal" element={<GoalPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/challenge/beginner" element={<BeginnerLevelPage />} />
       </Routes>
     </Router>
   );

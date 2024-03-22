@@ -1,0 +1,41 @@
+/* Progress-left stylings */
+.progress-left {
+  border-right: 4px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  color: white;
+}
+.progress-left h3 {
+  margin-bottom: 50px;
+}
+#profile-pic {
+  width: 200px;
+  height: auto;
+  margin-bottom: 50px;
+}
+.profile-desc {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.awards-container {
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px 10px 20px;
+}
+.awards-container .award-img {
+  width: 100%;
+  height: auto;
+}
+.awards-container .btn-award {
+  padding: 0;
+  border: none !important;
+}
+/* end of progress-left */
+
+/* progress-right stylings */
+.progress-right {
+}
