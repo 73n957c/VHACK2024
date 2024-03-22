@@ -62,43 +62,48 @@ function HomeProgress() {
             </div>
           </Col>
           <Col sm={8} className="progress-right">
-            <div className="current-status">
-              <h3>Level 2</h3>
-              <div className="current-progress">
-                <p>Current task 3/5</p>
-                <ProgressBar now={60} variant="success"></ProgressBar>
-              </div>
-            </div>
-            <div className="goal-progress-item">
+            <Container className="current-status">
+              <Row>
+                <Col sm={3}>
+                  <h3>Level 2</h3>
+                  <p>Current task 3/5</p>
+                </Col>
+                <Col className="current-progress">
+                  <ProgressBar now={60} variant="success"></ProgressBar>
+                </Col>
+              </Row>
+            </Container>
+            <div className="goal-progress-item progress-item">
               <div className="item-text">
                 <p>Set a goal</p>
                 <h5>Wealth Compass: Goal Planner</h5>
-                <Button size="sm" id="goal-btn">
-                  Open
-                </Button>
               </div>
+              <Button size="sm" id="goal-btn">
+                Open
+              </Button>
             </div>
-            <div className="tradequest-progress-item">
-              <div className="item-text">
+            <div className="tradequest-progress-item progress-item">
+              <div style={{ display: "flex", alignItems: "center" }}>
                 <i className="bi bi-lock-fill"></i>
-                <p>Complete Chapter 1.</p>
-                <h5>TradeQuest: Basic Knowledge</h5>
-                <Button size="sm" id="goal-btn">
-                  Open
-                </Button>
+                <div className="item-text">
+                  <p>Complete Chapter 1.</p>
+                  <h5>TradeQuest: Basic Knowledge</h5>
+                </div>
               </div>
+              <Button size="sm" id="pending-btn" disabled>
+                Pending
+              </Button>
             </div>
-            <div className="challenge-progress-item">
+            <div className="challenge-progress-item progress-item">
+              <i className="bi bi-unlock-fill"></i>
               <div className="item-text">
-                <i className="bi bi-unlock-fill"></i>
                 <p>Level 3</p>
                 <h5>
-                  Weekly Challenge{" "}
-                  <span style={{ fontWeight: "lighter" }}>Unlock</span>
+                  Weekly Challenge&nbsp;
+                  <span style={{ fontWeight: "normal", color: "#524F53" }}>
+                    Unlock
+                  </span>
                 </h5>
-                <Button size="sm" id="pending-btn">
-                  Open
-                </Button>
               </div>
             </div>
           </Col>

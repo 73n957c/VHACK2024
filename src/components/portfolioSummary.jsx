@@ -1,6 +1,6 @@
 import "../component-css/portfolioSummary.css";
 import { Image, Container, Row, Col } from "react-bootstrap";
-function PortfolioSummary() {
+function PortfolioSummary({ isChallenge }) {
   const infoList = [
     {
       id: 1,
@@ -48,7 +48,7 @@ function PortfolioSummary() {
         <p>Summary</p>
         <div className="current-value-container">
           <h3 className="current-value">$54,321.00</h3>
-          <p>Stimulated fund</p>
+          {isChallenge && <p>Stimulated fund</p>}
         </div>
         <Image
           src="../../Resources/portfoliograph.png"
@@ -78,4 +78,7 @@ function PortfolioSummary() {
     </>
   );
 }
+PortfolioSummary.defaultProps = {
+  isChallenge: false,
+};
 export default PortfolioSummary;
