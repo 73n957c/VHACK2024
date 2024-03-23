@@ -1,4 +1,4 @@
-import '../component-css/navBar.css';
+import "../component-css/navBar.css";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Container, Nav } from "react-bootstrap";
@@ -14,7 +14,14 @@ function NavBar() {
       <Container>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <img src="Resources\logo white.png" className="logo-img" alt="logo" />
+            <Link to="/">
+              <img
+                src="Resources\logo white.png"
+                className="logo-img"
+                alt="logo"
+              />
+            </Link>
+
             <NavItem
               to="/"
               label="HOME"
@@ -51,19 +58,27 @@ function NavBar() {
               active={activeMenuItem === 5}
               onClick={() => handleMenuItemClick(5)}
             />
-            <li id="coin-container" style={{ marginLeft: '10px' }}>
-                <div className="coin-box">
-                  <img className="coin-logo" src="Resources\coin-logo.png" alt="coin logo" />
-                  100
-                </div>
-              </li>
-              <li id="money-container" style={{ marginLeft: '10px' }}>
-                <div className="money-box">
-                  <img className="money-logo" src="Resources\money-logo.png" alt="money logo" />
-                  $1000
-                  <button id="add-money-btn">+</button>
-                </div>
-              </li>
+            <li id="coin-container" style={{ marginLeft: "10px" }}>
+              <div className="coin-box">
+                <img
+                  className="coin-logo"
+                  src="Resources\coin.svg"
+                  alt="coin logo"
+                />
+                100
+              </div>
+            </li>
+            <li id="money-container" style={{ marginLeft: "10px" }}>
+              <div className="money-box">
+                <img
+                  className="money-logo"
+                  src="../../Resources/money-logo.png"
+                  alt="money logo"
+                />
+                $1000
+                <i className="bi bi-plus-circle-fill" id="add-money-btn"></i>
+              </div>
+            </li>
           </Nav>
         </Navbar.Collapse>
       </Container>
