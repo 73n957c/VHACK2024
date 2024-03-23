@@ -60,7 +60,7 @@ body {
 }
 
 .money-box {
-    background-color: green;
+    background-color: rgba(40, 167, 69, 0.5);
     border-radius: 20px; 
     padding: 10px 20px;
     display: flex;
@@ -80,7 +80,7 @@ body {
 }
 
 .coin-box {
-    background-color: yellow;
+    background-color: rgba(255, 211, 127, 0.5);
     border-radius: 20px;
     padding: 10px 20px;
     display: flex;
