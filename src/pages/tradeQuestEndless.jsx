@@ -1,7 +1,7 @@
-import NavBar from "./navBar";
+import NavBar from "../components/navBar";
 import React, {useState} from 'react';
-import TradeQuestEndlessBreadCrumbs from "./tradeQuestEndlessBreadCrumbs";
-import "../component-css/tradeQuestEndless.css";
+import TradeQuestEndlessBreadCrumbs from "../components/tradeQuestEndlessBreadCrumbs";
+import "../page-css/tradeQuestEndless.css";
 
 function TradeQuestEndless() {
     return (
