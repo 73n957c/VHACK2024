@@ -1,7 +1,6 @@
 import Nav from 'react-bootstrap/Nav';
 import React, {useState} from 'react';
 import Button from 'react-bootstrap/Button';
-import NavBar from "../components/navBar";
 import CommunityTrending from '../components/communityTrending';
 import CommunityArchived from '../components/communityArchived';
 import CommunitySuggestion from '../components/communitySuggestion';
@@ -15,7 +14,6 @@ function Community(){
 
     return(
         <div id="community">
-            <NavBar></NavBar>
             <h1>Community</h1>
             <Nav class="horizontal-nav" role="navigation">
                 <ul>

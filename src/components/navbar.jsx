@@ -1,5 +1,4 @@
-import '../component-css/navBar.css';
-import React, {useState} from 'react';
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
@@ -51,6 +50,19 @@ function NavBar() {
               active={activeMenuItem === 5}
               onClick={() => handleMenuItemClick(5)}
             />
+            <li id="coin-container" style={{ marginLeft: '10px' }}>
+                <div className="coin-box">
+                  <img className="coin-logo" src="Resources\coin-logo.png" alt="coin logo" />
+                  100
+                </div>
+              </li>
+              <li id="money-container" style={{ marginLeft: '10px' }}>
+                <div className="money-box">
+                  <img className="money-logo" src="Resources\money-logo.png" alt="money logo" />
+                  $1000
+                  <button id="add-money-btn">+</button>
+                </div>
+              </li>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,7 +1,6 @@
 import Nav from 'react-bootstrap/Nav';
 import React, {useState} from 'react';
 import "../page-css/education.css"
-import NavBar from "../components/navBar"
 import PageHeader from "../components/pageHeader";
 import TradeQuestBasic from '../components/tradeQuestBasic';
 import TradeQuestPremium from '../components/tradeQuestPremium';
@@ -16,7 +15,6 @@ function Education(){
     
     return(
         <div id="education">
-            <NavBar></NavBar>
             <PageHeader></PageHeader>
             <Nav class="horizontal-nav" role="navigation">
                 <ul>

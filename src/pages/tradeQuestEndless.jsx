@@ -1,4 +1,3 @@
-import NavBar from "../components/navBar";
 import React, {useState} from 'react';
 import TradeQuestEndlessBreadCrumbs from "../components/tradeQuestEndlessBreadCrumbs";
 import "../page-css/tradeQuestEndless.css";
@@ -6,7 +5,6 @@ import "../page-css/tradeQuestEndless.css";
 function TradeQuestEndless() {
     return (
       <div id="tradeQuestEndless">
-        <NavBar></NavBar>
         <h1>TradeQuest: Endless</h1>
         <TradeQuestEndlessBreadCrumbs></TradeQuestEndlessBreadCrumbs>
         <div id="tradeQuestEndlessImg">
