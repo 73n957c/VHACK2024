@@ -1,0 +1,10 @@
+#pageHeader h1 {
+  margin-left: 100px;
+  color: white;
+}
+
+#pageHeader h1 .badge {
+  color: grey;
+  font-size: small;
+  margin-left: 25px;
+}

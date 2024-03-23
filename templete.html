@@ -106,67 +106,6 @@
             margin-left: 10px; /* Adjust spacing */
         }
 
-        /* Style for the left navigation bar */
-        #sidebar {
-            position: absolute;
-            left: 10px; /* Adjust as needed */
-            top: 50%; /* Center vertically */
-            transform: translateY(-50%);
-            background-color: #FFFFFF4D;
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        /* Style for navigation buttons */
-        .sidebar-button {
-            display: block;
-            width: 55px;
-            height: 55px;
-            margin-bottom: 10px; /* Spacing between buttons */
-            position: relative;
-            border-radius: 50%;
-            background-color: #363D54;
-            overflow: hidden;
-            background-size: cover;
-        }
-
-        /* Button 1 styles */
-        #button1 {
-            background-image: url('Resources/button1.png'); /* Update path */
-            background-size: 50% auto; /* Make background image 50% smaller */
-            background-position: center; /* Center the background image */
-            background-repeat: no-repeat; /* Prevent background image from repeating */
-        }
-
-        /* Button 2 styles */
-        #button2 {
-            background-image: url('Resources/button2.png'); /* Update path */
-            background-size: 50% auto; /* Make background image 50% smaller */
-            background-position: center; /* Center the background image */
-            background-repeat: no-repeat; /* Prevent background image from repeating */
-        }
-
-        /* Button 3 styles */
-        #button3 {
-            background-image: url('Resources/button3.png'); /* Update path */
-            background-size: 50% auto; /* Make background image 50% smaller */
-            background-position: center; /* Center the background image */
-            background-repeat: no-repeat; /* Prevent background image from repeating */
-        }
-
-        /* Button 4 styles */
-        #button4 {
-            background-image: url('Resources/button4.png'); /* Update path */
-            background-size: 50% auto; /* Make background image 50% smaller */
-            background-position: center; /* Center the background image */
-            background-repeat: no-repeat; /* Prevent background image from repeating */
-        }
-
-        /* Selected button styles */
-        .selected {
-            background-color: #FFA800 !important; /* Change to your desired color */
-        }
-
     </style>
 </head>
 <body>
@@ -213,51 +152,7 @@
 
                 // Make the clicked menu item bold
                 this.style.fontWeight = 'bold';
-
-                // Remove side nav bar selected
-                sidebarButtons.forEach(function(btn) {
-                    btn.classList.remove('selected');
-                });
             });
-        });
-    </script>
-
-    <div id="sidebar">
-        <!-- Button 1 -->
-        <a href="#introduction" class="sidebar-button" id="button1"></a>
-
-        <!-- Button 2 -->
-        <a href="#newsinfo" class="sidebar-button" id="button2"></a>
-
-        <!-- Button 3 -->
-        <a href="#weeklychallenge" class="sidebar-button" id="button3"></a>
-
-        <!-- Button 4 -->
-        <a href="#subscription" class="sidebar-button" id="button4"></a>
-    </div>
-
-    <script>
-        // Get all the sidebar buttons
-        var sidebarButtons = document.querySelectorAll('.sidebar-button');
-
-        // Loop through each sidebar button
-        sidebarButtons.forEach(function(button) {
-            // Add click event listener to each button
-            button.addEventListener('click', function() {
-                // Remove 'selected' class from all buttons
-                sidebarButtons.forEach(function(btn) {
-                    btn.classList.remove('selected');
-                });
-
-                // Add 'selected' class to the clicked button
-                this.classList.add('selected');
-
-                // Romove 'bold' stype in top nav bar
-                menuItems.forEach(function(item) {
-                    item.style.fontWeight = 'normal';
-                });
-            });
-            
         });
     </script>
     
