@@ -1,0 +1,83 @@
+.introduction-container {
+    border-radius: 12px;
+    border: 2px solid #C4C4C4;
+    background: linear-gradient(74deg, rgba(255, 255, 255, 0.31) 7.37%, rgba(255, 255, 255, 0.00) 98.75%);
+    backdrop-filter: blur(10px);
+    max-height: 80%;
+    max-width: 80%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-font {
+    padding: 25px 0px 0 0px;
+    margin-left: 70px;
+    color: #FFF;
+}
+
+.intro-section span {
+    color: #FFA800;
+}
+
+.intro-section h5 {
+    font-weight: 400;
+}
+
+.intro-section.subscription h5 {
+    font-weight: 500;
+}
+
+.intro-section h1 {
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.intro-section img {
+    max-height: 400px;
+}
+
+.intro-section.subscription img {
+    max-height: 500px;
+}
+
+.img-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.intro-section .btn-view-more:active {
+    background: rgb(226, 226, 226) !important;
+    color: #323232 !important;
+  }
+  .intro-section .btn-view-more:hover {
+    cursor: pointer;
+    background: white;
+    color: #323232;
+  }
+  .intro-section .btn-view-more {
+    color: white;
+  }
+
+  .intro-section.subscription {
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    background: linear-gradient(74deg, rgba(255, 211, 127, 0.70) 7.37%, rgba(255, 255, 255, 0.00) 98.75%);
+    backdrop-filter: blur(10px);
+  }
