@@ -3,26 +3,34 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 // Right now this page is using App.css
 import "./App.css";
-import NavBar from "./components/navBar";
-import PageHeader from "./components/pageHeader"
-import TradeQuestBasic from "./components/tradeQuestBasic"
-import TradeQuestPremium from "./components/tradeQuestPremium";
-// import DailyVocab from "./components/dailyVocab";
-import EnrollNewCourse from "./components/enrollNewCourse";
-// import SearchBar from "./components/searchBar";
-import TradeQuestEndlessBreadCrumbs from "./components/tradeQuestEndlessBreadCrumbs";
-import TradeQuestEndless from "./components/tradeQuestEndless";
-import CommunityTrending from "./components/communityTrending";
-import CommunityArchived from "./components/communityArchived";
-import CommunitySuggestion from "./components/communitySuggestion";
-import Community from "./components/community";
-import Education from "./components/education";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import EducationPage from "./pages/EducationPage";
+import ChallengePage from "./pages/ChallengePage";
+import CommunityPage from "./pages/CommunityPage";
+import NewsPage from "./pages/NewsPage";
+import GoalPage from "./pages/GoalPage";
+import AboutPage from "./pages/AboutPage";
+import BeginnerLevelPage from "./pages/BeginnerLevelPage";
 
 function App() {
   return (
-    <>
-      <Education></Education>
-    </>
+    // If want add component just use <component function name></component function name>
+    <Router>
+      {/* Replace this nav with the NavBar component */}
+      <nav>This is the navbar</nav>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/education" element={<EducationPage />} />
+        <Route path="/challenge" element={<ChallengePage />} />
+        <Route path="/community" element={<CommunityPage />} />
+        <Route path="/goal" element={<GoalPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/challenge/beginner" element={<BeginnerLevelPage />} />
+        <Route path="/news" element={<NewsPage />} />
+      </Routes>
+    </Router>
   );
 }
 
