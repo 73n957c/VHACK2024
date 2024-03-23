@@ -14,9 +14,11 @@ function AllocationBreakdown({ isChallenge }) {
           <br />
           Breakdown
         </h3>
-        <div id="weekly-challenge-bg">
-          <p>Weekly Challenge</p>
-        </div>
+        {isChallenge && (
+          <div id="weekly-challenge-bg">
+            <p>Weekly Challenge</p>
+          </div>
+        )}
         <div className="chart-container">
           <Image
             src="../../Resources/allocationchart.png"
