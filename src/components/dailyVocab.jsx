@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import 'bootstrap/dist/css/bootstrap.min.css'; //Override
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import "../component-css/dailyVocab.css";
 

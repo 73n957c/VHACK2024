@@ -5,7 +5,7 @@ import PageHeader from "../components/pageHeader";
 import TradeQuestBasic from '../components/tradeQuestBasic';
 import TradeQuestPremium from '../components/tradeQuestPremium';
 import EnrollNewCourse from '../components/enrollNewCourse';
-// import DailyVocab from './dailyVocab';
+import DailyVocab from '../components/dailyVocab';
 
 function Education(){
     const [activeMenuItem, setActiveMenuItem] = useState(null);
@@ -29,7 +29,7 @@ function Education(){
                 </div>
                 <div id="educationContainerBtm">
                     <p2><EnrollNewCourse></EnrollNewCourse></p2>
-                    <img src="Resources/dailyvocabreplace.png" className='daily-vocab-replace'></img>
+                    <DailyVocab></DailyVocab>
                 </div>
             </div>
         </div>
