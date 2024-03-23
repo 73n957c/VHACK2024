@@ -6,7 +6,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavBar from "./components/navBar";
+import NavBar from "./components/navbar";
 import HomePage from "./pages/HomePage";
 import EducationPage from "./pages/EducationPage";
 import ChallengePage from "./pages/ChallengePage";

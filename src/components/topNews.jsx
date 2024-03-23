@@ -25,7 +25,7 @@ function TopNews() {
   return (
     <>
       <div className="top-news-container">
-        <h3>Today's Top News</h3>
+        <h4>Today's Top News</h4>
         <div className="top-news-item-list">
           {topNewsList.map((item) => {
             return (
@@ -33,7 +33,7 @@ function TopNews() {
                 <div className="top-news-item" key={item.id}>
                   <img src={item.img} alt="" className="top-news-img" />
                   <div className="top-news-text">
-                    <h6 className="news-title">{item.title}</h6>
+                    <h7 className="news-title">{item.title}</h7>
                     <div className="desc-text">{item.desc}</div>
                   </div>
                 </div>
