@@ -1,6 +1,7 @@
 #tradeQuestPremium {
   position: relative; 
-  max-width: 489px; 
+  width: 800px;
+  height: 240.96px;
   margin: 0 auto; 
   border: none; 
   border-radius: 10px; 
@@ -13,14 +14,14 @@
 }
 
 #tradeQuestPremium .card-img-overlay {
-  position: absolute; 
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0; 
+  padding: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   z-index: 1;
@@ -72,4 +73,8 @@
 .premiumContainer p {
   position: absolute;
   top: 1px;
+}
+
+.lock-img {
+  height: 18px;
 }

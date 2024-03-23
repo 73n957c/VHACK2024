@@ -1,31 +1,21 @@
 #tradeQuestBasic {
-  position: relative; 
-  max-width: 581px;
   margin: 0 auto; 
   border: none; 
-  border-radius: 10px; 
-  overflow: hidden; 
+  width: 800px;
   box-shadow: 0 px 8px rgba(0, 0, 0, 0.1);
   background-color: transparent;
-}
-
-#tradeQuestBasic .card-img {
-  border-radius: 10px;
+  margin-right: 30px;
 }
 
 #tradeQuestBasic .card-img-overlay {
-  position: absolute; 
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  overflow: visible;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:space-around;
   align-items: center;
   text-align: center;
   z-index: 1; 
-  border-radius: 10px; 
+  padding: 30px;
 }
 
 #tradeQuestBasic .card-title{
@@ -46,7 +36,6 @@
 
 #tradeQuestBasic .progress {
   background-color: aliceblue;
-  border-radius: 10px;
   width: 50%; 
   margin: 10px auto; 
   margin-bottom: 15px;

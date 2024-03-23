@@ -10,7 +10,7 @@ function TradeQuestPremium() {
             <Card.ImgOverlay>
                 <Card.Title>TradeQuest: Endless</Card.Title>
                 <Card.Text>Shape your virtual investment journey.<br/>Explore, strategize, and see progress with every action.</Card.Text>
-                <Link to="/education/tradequestendless"><Button disabled><img src = "Resources\lock-fill.png"></img></Button></Link>
+                <Link to="/education/tradequestendless"><Button disabled><img src = "Resources\lock-fill.png" className='lock-img'></img></Button></Link>
                 <div className="premiumContainer">
                   <p>Premium Only</p>
                 </div>

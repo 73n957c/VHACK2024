@@ -15,6 +15,18 @@ import "../component-css/beginnerLevelProgress.css";
 export default function BeginnerLevelProgress() {
   return (
     <section>
+      <div className="reminder-text">
+        <p>
+          <strong>
+            This is a short-term investment challenge every week with simulated
+            funds
+          </strong>
+          <br />
+          Trade real-time stocks, track performance, and compete for prizes in a
+          dynamic virtual trading environment. The list of fixed stocks is
+          provided.
+        </p>
+      </div>
       <Card className="level-container">
         <Card.Body className="card-body">
           <Container className="level-top">
@@ -41,18 +53,6 @@ export default function BeginnerLevelProgress() {
           <p> 30 entries</p>
         </Card.Footer>
       </Card>
-      <div className="reminder-text">
-        <p>
-          <strong>
-            This is a short-term investment challenge every week with simulated
-            funds
-          </strong>
-          <br />
-          Trade real-time stocks, track performance, and compete for prizes in a
-          dynamic virtual trading environment. The list of fixed stocks is
-          provided.
-        </p>
-      </div>
     </section>
   );
 }

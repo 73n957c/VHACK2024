@@ -13,7 +13,7 @@ export default function BeginnerLevelPage() {
       <div className="page-title">
         <h1>Beginner Level - Weekly Challenge</h1>
       </div>
-      <Container>
+      <Container className="begineer-level-container">
         <Breadcrumb className="breadcrumb">
           <Breadcrumb.Item linkAs={Link} linkProps={{ to: "/" }}>
             Home
@@ -23,7 +23,10 @@ export default function BeginnerLevelPage() {
           </Breadcrumb.Item>
           <Breadcrumb.Item active>Beginner Level</Breadcrumb.Item>
         </Breadcrumb>
-        <BeginnerLevelProgress></BeginnerLevelProgress>
+        <div className="challenge-card">
+          <BeginnerLevelProgress></BeginnerLevelProgress>
+        </div>
+        
         <Row className="stock-ranking-container">
           <Col className="stock-col">
             <StockList></StockList>

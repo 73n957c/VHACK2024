@@ -31,7 +31,7 @@ function DailyVocab() {
     <Carousel id="dailyVocabContainer">
         {vocabList.map((item) => {
           return (
-            <Carousel.Item key={item.id} interval={1000}>
+            <Carousel.Item key={item.id} interval={5000}>
               <Link to="#" className="carousel-link">
                 <img className="carousel-img" src={item.img} />
                 <Carousel.Caption>

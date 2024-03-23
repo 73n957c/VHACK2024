@@ -5,7 +5,10 @@ import "../page-css/TradeQuestEndless.css";
 function TradeQuestEndless() {
     return (
       <div id="tradeQuestEndless">
-        <h1>TradeQuest: Endless</h1>
+        <div className="page-title">
+          <h1>TradeQuest: Endless</h1>
+        </div>
+        
         <TradeQuestEndlessBreadCrumbs></TradeQuestEndlessBreadCrumbs>
         <div id="tradeQuestEndlessImg">
             <img src = "../../Resources/TradeQuest screen.png" class="endlessImg"></img>

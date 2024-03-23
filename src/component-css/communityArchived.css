@@ -1,5 +1,6 @@
 .community-archived-container {
-  height: fit-content;
+  height: 105%;
+  width: 85%;
   color: white;
   display: flex;
   flex-direction: column;

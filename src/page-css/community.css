@@ -9,7 +9,7 @@
     justify-content: space-between;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-left: 230px;
+    padding-left: 8%;
 }
 
 .horizontal-nav ul {
@@ -60,6 +60,8 @@
 
 #communityComponent {
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 #communityComponentTop {
@@ -67,9 +69,6 @@
   margin-bottom: 30px;
 }
 
-#communityComponentTop p1 {
-  margin-left: 50px;
-}
 /* extra css */
 .community-profile-pic {
   width: 100px;

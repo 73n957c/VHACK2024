@@ -60,3 +60,14 @@
 .level-container .level-top .level-info h5 {
   margin-bottom: 15px;
 }
+
+.challenge-card {
+  width: 95%;
+  justify-self: center;
+  align-self: center;
+}
+
+.begineer-level-container {
+  display: flex;
+  flex-direction: column;
+}

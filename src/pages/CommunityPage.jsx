@@ -15,7 +15,7 @@ function Community() {
 
   return (
     <Container id="community">
-      <h1>Community</h1>
+      <h1 className="page-title">Community</h1>
       <Nav class="horizontal-nav" role="navigation">
         <ul>
           <li>
@@ -86,7 +86,7 @@ function Community() {
       </Nav>
 
       <Row id="communityComponent">
-        <Col sm={7} id="communityComponentTop">
+        <Col sm={6} id="communityComponentTop">
           <CommunityTrending></CommunityTrending>
         </Col>
         <Col sm={5}>
