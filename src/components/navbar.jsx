@@ -14,7 +14,7 @@ function NavBar() {
       <Container>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <img src="Resources\logo white.png" className="logo-img" alt="logo" />
+            <img src="../Resources/logo white.png" className="logo-img" alt="logo" />
             <NavItem
               to="/"
               label="HOME"
@@ -53,13 +53,13 @@ function NavBar() {
             />
             <li id="coin-container" style={{ marginLeft: '10px' }}>
                 <div className="coin-box">
-                  <img className="coin-logo" src="Resources\coin-logo.png" alt="coin logo" />
+                  <img className="coin-logo" src="../Resources/coin-logo.png" alt="coin logo" />
                   100
                 </div>
               </li>
               <li id="money-container" style={{ marginLeft: '10px' }}>
                 <div className="money-box">
-                  <img className="money-logo" src="Resources\money-logo.png" alt="money logo" />
+                  <img className="money-logo" src="../Resources/money-logo.png" alt="money logo" />
                   $1000
                   <button id="add-money-btn">+</button>
                 </div>

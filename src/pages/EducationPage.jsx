@@ -6,6 +6,7 @@ import TradeQuestBasic from '../components/tradeQuestBasic';
 import TradeQuestPremium from '../components/tradeQuestPremium';
 import EnrollNewCourse from '../components/enrollNewCourse';
 import DailyVocab from '../components/dailyVocab';
+import { Container, Col, Row, Carousel } from "react-bootstrap";
 
 function Education(){
     const [activeMenuItem, setActiveMenuItem] = useState(null);
@@ -22,16 +23,26 @@ function Education(){
                     <li><a><Nav.Link href="#yourcourses" style={{textDecoration: activeMenuItem === 1 ? 'underline' : 'none', color: activeMenuItem === 1 ? '#FFA800' : 'white'}} onClick={() => handleMenuItemClick(1)}>Your Courses</Nav.Link></a></li>
                 </ul>
             </Nav>
-            <div id='educationContainer'>
-                <div id="educationContainerTop">
-                    <TradeQuestBasic></TradeQuestBasic>
-                    <p1><TradeQuestPremium></TradeQuestPremium></p1>
+            <Container id="educationContainer">
+                <div className="overflow-auto">
+                <Row id="educationContainerTop">
+                    <Col sm={6}>
+                        <TradeQuestBasic></TradeQuestBasic>
+                    </Col>
+                    <Col sm={5}>
+                        <TradeQuestPremium></TradeQuestPremium>
+                    </Col>
+                </Row>
                 </div>
-                <div id="educationContainerBtm">
-                    <p2><EnrollNewCourse></EnrollNewCourse></p2>
-                    <DailyVocab></DailyVocab>
-                </div>
-            </div>
+                <Row id="educationContainerBtm">
+                    <Col sm={7}>
+                        <EnrollNewCourse></EnrollNewCourse>
+                    </Col>
+                    <Col sm={5}>
+                        <DailyVocab></DailyVocab>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     )
 }

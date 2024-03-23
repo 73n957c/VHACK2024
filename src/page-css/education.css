@@ -3,7 +3,7 @@
     justify-content: space-between;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-left: 160px;
+    margin-left: 230px;
 }
 
 .horizontal-nav ul {
@@ -43,11 +43,8 @@
     margin-bottom: 30px;
 }
 
-#educationContainerTop p1{
-    margin-left: 50px;
-}
-
-#educationContainerBtm {
-    display: flex;
-    margin-bottom: 30px;
+.overflow-auto {
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
 }

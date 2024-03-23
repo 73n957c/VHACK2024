@@ -15,6 +15,7 @@ import NewsPage from "./pages/NewsPage";
 import GoalPage from "./pages/GoalPage";
 import AboutPage from "./pages/AboutPage";
 import BeginnerLevelPage from "./pages/BeginnerLevelPage";
+import TradeQuestEndless from "./pages/TradeQuestEndless";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/challenge/beginner" element={<BeginnerLevelPage />} />
         <Route path="/news" element={<NewsPage />} />
+        <Route path="/education/tradequestendless" element={<TradeQuestEndless />} />
       </Routes>
     </Router>
   );
