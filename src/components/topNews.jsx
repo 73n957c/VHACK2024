@@ -29,8 +29,8 @@ function TopNews() {
         <div className="top-news-item-list">
           {topNewsList.map((item) => {
             return (
-              <Link to="/news" className="carousel-link">
-                <div className="top-news-item" key={item.id}>
+              <Link to="/news" className="carousel-link" key={item.id}>
+                <div className="top-news-item">
                   <img src={item.img} alt="" className="top-news-img" />
                   <div className="top-news-text">
                     <h7 className="news-title">{item.title}</h7>

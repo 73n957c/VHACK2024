@@ -14,6 +14,7 @@ import CommunityPage from "./pages/CommunityPage";
 import NewsPage from "./pages/NewsPage";
 import GoalPage from "./pages/GoalPage";
 import AboutPage from "./pages/AboutPage";
+import TopicPage from "./pages/TopicPage";
 import BeginnerLevelPage from "./pages/BeginnerLevelPage";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/challenge/beginner" element={<BeginnerLevelPage />} />
         <Route path="/news" element={<NewsPage />} />
+        <Route path="/community/topic1" element={<TopicPage />} />
       </Routes>
     </Router>
   );
