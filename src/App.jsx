@@ -9,6 +9,7 @@ import HomePage from "./pages/HomePage";
 import EducationPage from "./pages/EducationPage";
 import ChallengePage from "./pages/ChallengePage";
 import CommunityPage from "./pages/CommunityPage";
+import NewsPage from "./pages/NewsPage";
 import GoalPage from "./pages/GoalPage";
 import AboutPage from "./pages/AboutPage";
 import BeginnerLevelPage from "./pages/BeginnerLevelPage";
@@ -27,6 +28,7 @@ function App() {
         <Route path="/goal" element={<GoalPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/challenge/beginner" element={<BeginnerLevelPage />} />
+        <Route path="/news" element={<NewsPage />} />
       </Routes>
     </Router>
   );
