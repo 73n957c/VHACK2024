@@ -5,7 +5,7 @@ function PageHeader() {
   return (
     <div id="pageHeader">
       <h1>
-        heading<Badge bg="secondary">?????</Badge>
+        Education<Badge bg="secondary">Learn from Our Game & Tutorial</Badge>
       </h1>
     </div>
   );

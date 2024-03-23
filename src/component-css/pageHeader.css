@@ -1,6 +1,7 @@
 #pageHeader h1 {
-  margin-left: 100px;
+  text-indent: 175px;
   color: white;
+  font-size: 40px;
 }
 
 #pageHeader h1 .badge {

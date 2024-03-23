@@ -16,11 +16,12 @@ import CommunityTrending from "./components/communityTrending";
 import CommunityArchived from "./components/communityArchived";
 import CommunitySuggestion from "./components/communitySuggestion";
 import Community from "./components/community";
+import Education from "./components/education";
 
 function App() {
   return (
     <>
-      <Community></Community>
+      <Education></Education>
     </>
   );
 }
