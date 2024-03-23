@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import "../component-css/enrollNewCourse.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function EnrollNewCourse() {
     return (
