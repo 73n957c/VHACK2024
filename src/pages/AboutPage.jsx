@@ -8,11 +8,8 @@ import '../page-css/AboutPage.css'
 export default function AboutPage() {
   return (
     <>
-      <section className='intro-section'>
-        <div className="page-title">
-          <h1>About Us</h1>
-        </div>
-        <Container fluid className='container introduction-container'>
+      <section className='about-section'>
+        <Container fluid>
           <Row>
             <Col xm={6} className='title-container'>
               <div className='intro-font'>
@@ -32,8 +29,11 @@ export default function AboutPage() {
             </Col>
           </Row>
         </Container>
-      
-        <Container fluid className='container introduction-container'>
+        
+      </section>
+
+      <section className='about-section education'>
+        <Container fluid>
           <Row>
               <Col xm={6} className='title-container'>
                 <div className='intro-font'>
@@ -58,8 +58,10 @@ export default function AboutPage() {
               </Col>
             </Row>
         </Container>
+      </section>
 
-        <Container fluid className='container introduction-container'>
+      <section className='about-section challenge'>
+        <Container fluid>
           <Row>
               <Col xm={6} className='title-container'>
                 <div className='intro-font'>
@@ -85,7 +87,40 @@ export default function AboutPage() {
             </Row>
         </Container>
       </section>
-      <section className='intro-section subscription'>
+
+      <section className='about-section general'>
+        <Container fluid>
+          <Row>
+            <Col xm={6} className='title-container'>
+              <div className='intro-font'>
+                <h5><span>Financial </span>Frontier</h5>
+              </div>
+              <div className='intro-font'>
+                <h1>General</h1>
+              </div>
+              <div className='intro-font'>
+                <ul>
+                  <li><h5>Level-by-level guidance without confusion to various features offered</h5></li>
+                  <li><h5>Monthly goal guidance</h5></li>
+                  <li><h5>Risk analysis (coming soon)</h5></li>
+                </ul>
+              </div>
+              <div className='button-container'>
+                <Button variant="view-more">
+            VIEW MORE <i className="bi bi-chevron-right"></i>
+          </Button>
+              </div>
+            </Col>
+            <Col xm={4}>
+              <div className='img-container'>
+                <img src='../Resources/general-intro.svg'/>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className='about-section subscription'>
         <Container fluid>
             <Row>
               <Col xm={6} className='title-container'>
