@@ -16,7 +16,7 @@ import GoalPage from "./pages/GoalPage";
 import AboutPage from "./pages/AboutPage";
 import TopicPage from "./pages/TopicPage";
 import BeginnerLevelPage from "./pages/BeginnerLevelPage";
-import TradeQuestEndless from "./pages/TradeQuestEndless";
+import TradeQuestEndless from "./pages/tradeQuestEndless";
 
 function App() {
   return (
@@ -32,7 +32,10 @@ function App() {
         <Route path="/challenge/beginner" element={<BeginnerLevelPage />} />
         <Route path="/news" element={<NewsPage />} />
         <Route path="/community/topic1" element={<TopicPage />} />
-        <Route path="/education/tradequestendless" element={<TradeQuestEndless />} />
+        <Route
+          path="/education/tradequestendless"
+          element={<TradeQuestEndless />}
+        />
       </Routes>
     </Router>
   );
