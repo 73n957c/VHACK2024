@@ -21,7 +21,7 @@ function AllocationBreakdown({ isChallenge }) {
         )}
         <div className="chart-container">
           <Image
-            src="../Resources/allocationchart.png"
+            src="../../../Resources/allocationchart.png"
             id="allocation-chart"
           ></Image>
           <div className="score-container">
