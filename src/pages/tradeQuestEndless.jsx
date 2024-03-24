@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TradeQuestEndlessBreadCrumbs from "../components/tradeQuestEndlessBreadCrumbs";
-import "../page-css/TradeQuestEndless.css";
+import "../page-css/tradeQuestEndless.css";
 
 function TradeQuestEndless() {
   return (
@@ -10,7 +10,10 @@ function TradeQuestEndless() {
       </div>
       <TradeQuestEndlessBreadCrumbs></TradeQuestEndlessBreadCrumbs>
       <div id="tradeQuestEndlessImg">
-        <img src="../../Resources/tradequest 2.png" className="endlessImg"></img>
+        <img
+          src="../../Resources/tradequest 2.png"
+          className="endlessImg"
+        ></img>
         <img src="../../Resources/decision.png" className="endlessImg2"></img>
       </div>
       <img src="../../Resources/statistic.png" className="endlessImg3"></img>
