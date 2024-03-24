@@ -23,7 +23,7 @@ function DailyVocab() {
       img: "../../Resources/CarouselImage.png",
       header: "Daily Vocabulary",
       title: "Diversification",
-      desc: "A technique investors use to reduce the risk of losing money by spreading investments across a variety of industries and assets.",
+      desc: "A technique to reduce the risk of losing money by spreading investments across a variety of industries and assets.",
     },
   ];
 
