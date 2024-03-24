@@ -58,11 +58,11 @@ function NavBar() {
 
         <div className='wallet-container'>
           <div className="coin-box">
-            <img className="coin-logo" src="Resources\coin-logo.png" alt="coin logo" />
+            <img className="coin-logo" src="../Resources/coin-logo.png" alt="coin logo" />
             <p>100</p>
           </div>
           <div className="money-box">
-            <img className="money-logo" src="Resources\money-logo.png" alt="money logo" />
+            <img className="money-logo" src="../Resources/money-logo.png" alt="money logo" />
             <p>$1000</p>
           </div>
         </div>

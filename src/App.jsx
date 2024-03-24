@@ -16,7 +16,7 @@ import GoalPage from "./pages/GoalPage";
 import AboutPage from "./pages/AboutPage";
 import TopicPage from "./pages/TopicPage";
 import BeginnerLevelPage from "./pages/BeginnerLevelPage";
-import TradeQuestEndless from "./pages/tradeQuestEndless";
+import TradeQuestEndless from "./pages/TradeQuestEndless";
 
 function App() {
   return (

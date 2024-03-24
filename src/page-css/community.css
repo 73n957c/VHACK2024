@@ -22,13 +22,13 @@
   margin-right: 0;
 }
 
-.horizontal-nav a {
+.horizontal-nav p {
   text-decoration: none;
   color: white;
   transition: color 0.3s ease;
 }
 
-.horizontal-nav a:hover {
+.horizontal-nav p:hover {
   color: #555;
 }
 

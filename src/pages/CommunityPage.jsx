@@ -19,7 +19,7 @@ function Community() {
       <Nav className="horizontal-nav" role="navigation">
         <ul>
           <li>
-            <a>
+            <p>
               <Nav.Link
                 href="#all"
                 style={{
@@ -30,10 +30,10 @@ function Community() {
               >
                 All
               </Nav.Link>
-            </a>
+            </p>
           </li>
           <li>
-            <a>
+            <p>
               <Nav.Link
                 href="#general"
                 style={{
@@ -44,10 +44,10 @@ function Community() {
               >
                 General
               </Nav.Link>
-            </a>
+            </p>
           </li>
           <li>
-            <a>
+            <p>
               <Nav.Link
                 href="#tradequest"
                 style={{
@@ -58,10 +58,10 @@ function Community() {
               >
                 TradeQuest
               </Nav.Link>
-            </a>
+            </p>
           </li>
           <li>
-            <a>
+            <p>
               <Nav.Link
                 href="#weeklychallenge"
                 style={{
@@ -72,7 +72,7 @@ function Community() {
               >
                 Weekly Challenge
               </Nav.Link>
-            </a>
+            </p>
           </li>
         </ul>
         <div id="communitySearch">

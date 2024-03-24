@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TradeQuestEndlessBreadCrumbs from "../components/tradeQuestEndlessBreadCrumbs";
-import "../page-css/tradeQuestEndless.css";
+import "../page-css/TradeQuestEndless.css";
 
 function TradeQuestEndless() {
   return (
@@ -8,16 +8,12 @@ function TradeQuestEndless() {
       <div className="page-title">
         <h1>TradeQuest: Endless</h1>
       </div>
-
       <TradeQuestEndlessBreadCrumbs></TradeQuestEndlessBreadCrumbs>
       <div id="tradeQuestEndlessImg">
-        <img
-          src="../../Resources/TradeQuest screen.png"
-          class="endlessImg"
-        ></img>
-        <img src="../../Resources/decision.png" class="endlessImg2"></img>
+        <img src="../../Resources/TradeQuest screen.png" className="endlessImg"></img>
+        <img src="../../Resources/decision.png" className="endlessImg2"></img>
       </div>
-      <img src="../../Resources/statistic.png" class="endlessImg3"></img>
+      <img src="../../Resources/statistic.png" className="endlessImg3"></img>
       <div id="tradeQuestEndlessLine">
         <p>
           "Rest assured, your virtual game financial records remain separate
