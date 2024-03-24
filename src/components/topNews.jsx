@@ -33,7 +33,7 @@ function TopNews() {
                 <div className="top-news-item">
                   <img src={item.img} alt="" className="top-news-img" />
                   <div className="top-news-text">
-                    <h7 className="news-title">{item.title}</h7>
+                    <h6 className="news-title">{item.title}</h6>
                     <div className="desc-text">{item.desc}</div>
                   </div>
                 </div>

@@ -39,22 +39,20 @@ function EnrollNewCourse() {
                 <img src="Resources/searchGroup.png" alt="Search Group" className="search-group-img" />
             </div>
             <div id="courseContainer">
-                {newCourseList.map((item) => {
-                return (
-                <Link to="#" className="carousel-link">
-                    <div className="course-item" key={item.id}>
-                    <img src={item.img} alt="" className="course-img" />
-                    <div className="course-text">
-                        <h6 className="course-title">{item.title}</h6>
-                        <div className="desc-text">{item.desc}</div>
-                        <div className="course-label1">{item.label1}</div>
-                        <div className="course-label2">{item.label2}</div>
-                        <div className="course-view">{item.view}</div>
-                    </div>
-                    </div>
-                </Link>
-                  );
-                })}
+                {newCourseList.map((item) => (
+                    <Link to="#" className="carousel-link" key={item.id}>
+                        <div className="course-item">
+                            <img src={item.img} alt="" className="course-img" />
+                            <div className="course-text">
+                                <h6 className="course-title">{item.title}</h6>
+                                <div className="desc-text">{item.desc}</div>
+                                <div className="course-label1">{item.label1}</div>
+                                <div className="course-label2">{item.label2}</div>
+                                <div className="course-view">{item.view}</div>
+                            </div>
+                        </div>
+                    </Link>
+                ))}
             </div>
         </Card>
     );

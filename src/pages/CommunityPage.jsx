@@ -16,7 +16,7 @@ function Community() {
   return (
     <Container id="community">
       <h1 className="page-title">Community</h1>
-      <Nav class="horizontal-nav" role="navigation">
+      <Nav className="horizontal-nav" role="navigation">
         <ul>
           <li>
             <a>
