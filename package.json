@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "homepage": "https://73n957c.github.io/VHACK2024/",
   "educationpage": "https://73n957c.github.io/VHACK2024/education",
-  "challengepage": "https://73n957c.github.io/VHACK2024/",
-  
+  "challengepage": "https://73n957c.github.io/VHACK2024/challenge",
+
   "type": "module",
   "scripts": {
     "dev": "vite",
