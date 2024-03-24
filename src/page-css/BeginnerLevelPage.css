@@ -44,7 +44,7 @@
   margin-bottom: 6%;
 }
 
-.breadcrumb {
+.begineer-level-container .breadcrumb {
   justify-self: left;
-  align-self: center;
+  margin-left: 0;
 }

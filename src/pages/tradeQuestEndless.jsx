@@ -10,7 +10,7 @@ function TradeQuestEndless() {
       </div>
       <TradeQuestEndlessBreadCrumbs></TradeQuestEndlessBreadCrumbs>
       <div id="tradeQuestEndlessImg">
-        <img src="../../Resources/TradeQuest screen.png" className="endlessImg"></img>
+        <img src="../../Resources/tradequest 2.png" className="endlessImg"></img>
         <img src="../../Resources/decision.png" className="endlessImg2"></img>
       </div>
       <img src="../../Resources/statistic.png" className="endlessImg3"></img>
