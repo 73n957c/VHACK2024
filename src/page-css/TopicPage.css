@@ -4,6 +4,9 @@
 .topic-container h1 {
   margin-bottom: 30px;
 }
+.topic-container .breadcrumb {
+  margin-left: 0;
+}
 .topic-post {
   border-radius: 12px;
   background: rgba(225, 225, 225, 0.2);
