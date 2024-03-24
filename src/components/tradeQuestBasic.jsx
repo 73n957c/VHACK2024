@@ -12,7 +12,7 @@ function TradeQuestBasic() {
                 <Card.Title>TradeQuest: Basic Knowledge</Card.Title>
                 <Card.Text>Begin Your Financial Education Adventure Now!</Card.Text>
                 <ProgressBar animated now={now} label={`${now}%`} visuallyHidden/>
-                <Button>Continue</Button>
+                <Button href="https://play.unity.com/mg/other/tradequest-web">Continue</Button>
             </Card.ImgOverlay>
         </Card>
     );
